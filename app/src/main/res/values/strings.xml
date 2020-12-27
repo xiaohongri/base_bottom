@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">智慧物流</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="passwordtext">请输入当前登陆密码</string>
+</resources>

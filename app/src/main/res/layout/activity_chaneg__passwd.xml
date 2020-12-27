@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:text="@string/passwordtext"
+            android:textSize="20dp"
+            android:gravity="center">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/now_pawwsd"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:hint="请输入当前登陆密码"
+            android:gravity="center">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#A6A6A6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="确认新密码"
+            android:textSize="20dp"
+            android:gravity="center">
+        </TextView>
+
+        <EditText
+            android:id="@+id/next_passwd"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="确认新密码"
+            android:gravity="center">
+
+        </EditText>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="下一步" />
+
+
+</LinearLayout>
